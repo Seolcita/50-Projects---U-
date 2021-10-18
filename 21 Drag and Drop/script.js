@@ -50,5 +50,5 @@ function dragLeave() {
 function dragDrop() {
   this.className = 'empty';
   this.append(fill);
-  console.log('drag drop');
+  //console.log('drag drop');
 }
