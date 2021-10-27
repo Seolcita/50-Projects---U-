@@ -1,0 +1,103 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Catch Game</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Catch Dude If You Can</h1>
+      <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+      <h1>Choose your dude</h1>
+      <ul class="friend-list">
+        <li>
+          <button class="choose-friend-btn">
+            <p>Seol</p>
+            <img src="imgs/seol.png" alt="Seolcita" />
+          </button>
+        </li>
+        <!-- <li>
+          <button class="choose-friend-btn">
+            <p>Luis</p>
+            <img src="imgs/Luis.png" alt="Luicito" />
+          </button>
+        </li> -->
+        <li>
+          <button class="choose-friend-btn">
+            <p>Chloe</p>
+            <img src="imgs/Chloe.png" alt="Chloe" />
+          </button>
+        </li>
+        <li>
+          <button class="choose-friend-btn">
+            <p>Aram</p>
+            <img src="imgs/Aram.png" alt="Aram" />
+          </button>
+        </li>
+
+        <li>
+          <button class="choose-friend-btn">
+            <p>Sungdo</p>
+            <img src="imgs/Sungdo.png" alt="Sungdo" />
+          </button>
+        </li>
+        <li>
+          <button class="choose-friend-btn">
+            <p>Jayden</p>
+            <img src="imgs/Jayden.png" alt="Jayden" />
+          </button>
+        </li>
+        <li>
+          <button class="choose-friend-btn">
+            <p>Ray</p>
+            <img src="imgs/Ray.png" alt="Ray" />
+          </button>
+        </li>
+        <li>
+          <button class="choose-friend-btn">
+            <p>Sean</p>
+            <img src="imgs/Sean.png" alt="Sean" />
+          </button>
+        </li>
+        <li>
+          <button class="choose-friend-btn">
+            <p>Jin</p>
+            <img src="imgs/Jin.png" alt="Jin" />
+          </button>
+        </li>
+        <li>
+          <button class="choose-friend-btn">
+            <p>Chai</p>
+            <img src="imgs/Chai.png" alt="Chai" />
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+      <h3 id="time" class="time">Time 00:00</h3>
+      <h3 id="score" class="score">Score: 0</h3>
+      <h5 id="message" class="message">Are you annoyed yet?</h5>
+      <h5 id="end-message" class="end-message">
+        You are playing an impossible game!!
+        <button class="again-btn">Play Again 🕹</button>
+      </h5>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
