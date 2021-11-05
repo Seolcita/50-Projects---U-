@@ -1,0 +1,14 @@
+{
+  "key1": [
+    {
+      "ability": { "name": "jump", "level": 1 },
+      "slot": 10
+    },
+    {
+      "ability": { "name": "run", "level": 2, "slot": 20 },
+      "slot": 20
+    }
+  ],
+  "key2": "key2Value",
+  "key3": 1
+}
